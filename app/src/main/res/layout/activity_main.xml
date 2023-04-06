@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f9fe"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:text="Please choose your University / College!"-->
+<!--                android:textColor="#232323"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginLeft="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageButton
+                        android:id="@+id/ghrce_college"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="fitCenter"
+                        android:background="@color/white"
+                        android:src="@drawable/main_college"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="95dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:textColor="#232323"
+                        android:background="@drawable/home_button"
+                        android:text="Poly"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false" />
+
+                </androidx.cardview.widget.CardView>
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="180dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="20dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardMaxElevation="12dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <ImageButton-->
+<!--                        android:id="@+id/rtmnu"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="100dp"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:scaleType="fitCenter"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:src="@drawable/main_university"/>-->
+
+<!--                    <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="95dp"-->
+<!--                        android:layout_gravity="bottom|center_horizontal"-->
+<!--                        android:textColor="#232323"-->
+<!--                        android:background="@drawable/home_button"-->
+<!--                        android:text="RTMNU"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textAllCaps="false" />-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+            </TableRow>
+
+<!--            <TableRow-->
+<!--                android:gravity="center_horizontal">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="180dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="20dp"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardMaxElevation="12dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <ImageButton-->
+<!--                        android:id="@+id/dbatu"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="100dp"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:scaleType="fitCenter"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:src="@drawable/main_university"/>-->
+
+<!--                    <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="95dp"-->
+<!--                        android:layout_gravity="bottom|center_horizontal"-->
+<!--                        android:textColor="#232323"-->
+<!--                        android:background="@drawable/home_button"-->
+<!--                        android:text="DBATU"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textAllCaps="false" />-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/cardVi2ew"-->
+<!--                    android:layout_width="180dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:cardElevation="10dp"-->
+<!--                    app:cardCornerRadius="20dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    app:cardBackgroundColor="@color/white"-->
+<!--                    app:cardMaxElevation="12dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true">-->
+
+<!--                    <ImageButton-->
+<!--                        android:id="@+id/bca"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="100dp"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:scaleType="fitCenter"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:src="@drawable/main_college"/>-->
+
+<!--                    <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="95dp"-->
+<!--                        android:layout_gravity="bottom|center_horizontal"-->
+<!--                        android:textColor="#232323"-->
+<!--                        android:background="@drawable/home_button"-->
+<!--                        android:text="BCA"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textAllCaps="false" />-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </TableRow>-->
+
+        </TableLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188432058355",
+    "project_id": "kunal-89668",
+    "storage_bucket": "kunal-89668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188432058355:android:db539e1fa7ddfbf2a6b486",
+        "android_client_info": {
+          "package_name": "com.kunal.kunal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188432058355-3b5um2h04ian95ubu70pc6c1vpeau325.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqU0OnEnZ2EEtY_8ycNL4JvF5Jq9YK74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188432058355-3b5um2h04ian95ubu70pc6c1vpeau325.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
